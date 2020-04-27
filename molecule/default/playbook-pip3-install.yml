@@ -29,5 +29,6 @@
       pip_executable: pip3
     - role: geerlingguy.certbot
       certbot_install_from_source: false
-      certbot_pkg_mgr: pip3
+      certbot_pkg_mgr: pip
+      certbot_pip_executable: pip3
       certbot_plugins: ['dns-route53']
