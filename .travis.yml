@@ -10,7 +10,7 @@ env:
     - MOLECULE_DISTRO: centos8
       MOLECULE_PLAYBOOK: playbook-plugin-install.yml
     - MOLECULE_DISTRO: centos8
-      MOLECULE_PLAYBOOK: playbook-pip-install.yml
+      MOLECULE_PLAYBOOK: playbook-pip3-install.yml
     - MOLECULE_DISTRO: centos7
     - MOLECULE_DISTRO: centos7
       MOLECULE_PLAYBOOK: playbook-plugin-install.yml
