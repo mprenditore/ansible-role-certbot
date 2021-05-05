@@ -42,3 +42,4 @@ certbot_pkg_mgr: "{{ ansible_pkg_mgr }}"
 certbot_pip_version: 1.14.0
 certbot_pip_executable: pip
 certbot_use_ppa: false
+certbot_python: python3
